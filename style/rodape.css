@@ -26,6 +26,9 @@ hr{
         align-items: center;
         margin: 0.6em 0;
     }
+    .lista-rodape__link:hover {
+        color: var(--cor-laranja);
+        }
 
     .lista-rodape__titulo{
         color: #353535;
@@ -41,5 +44,14 @@ hr{
 
     .rodape__titulo{
         font-size: 24px;
+    }
+}
+@media screen and (min-width:1728px) {
+    .lista-rodape {
+        border-left: 1px solid #353535;
+        padding-left: 1em;
+    }
+    .rodape {
+        padding: 3em 0;
     }
 }
